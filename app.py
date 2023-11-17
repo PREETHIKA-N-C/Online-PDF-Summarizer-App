@@ -24,7 +24,7 @@ def file_processing(file):
     final_texts = final_texts + text.page_content
   return final_texts
 
-#LM pipeline
+#LLM pipeline
 def LLM_Pipeline(filepath):
   pipeline_summarizer = pipeline(
     'summarization',
